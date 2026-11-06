@@ -1,0 +1,28 @@
+# Binaries and build output
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+storage/logs/
+storage/cache/
+storage/sessions/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
